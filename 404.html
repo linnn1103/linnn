@@ -9,17 +9,25 @@ permalink: /404.html
 </head>
 <body>
     <h1>404 Not Found</h1>
-    <p>抱歉，我們找不到您要的頁面。</p>
+    <p>這是一個該死的靜態網頁F5肯定有問題</p>
     <script>
-        var pathSegmentsToKeep = 1;//如果不是自定義的網域就把0改成1
-        var l = window.location;
-        l.replace(
-        l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/#/' +
-        l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-        (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-        l.hash
-        );
+        // var pathSegmentsToKeep = 1;//如果不是自定義的網域就把0改成1
+        // var l = window.location;
+        // l.replace(
+        // l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+        // l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/#/' +
+        // l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
+        // (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+        // l.hash
+        // );
+        (function() {
+            var redirectPath = location.href.split('#')[1];
+            if (redirectPath) {
+                location.replace('https://linnn1103.github.io/linnn/#' + redirectPath);
+            } else {
+                location.replace('https://linnn1103.github.io/linnn/');
+            }
+        })();
     </script>
 </body>
 </html>
