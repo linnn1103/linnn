@@ -1,0 +1,29 @@
+---
+permalink: /404.html
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>404 Not Found</title>
+</head>
+<body>
+    <h1>404 Not Found</h1>
+    <p>
+    這是一個該死的靜態網頁F5肯定有問題
+    等我一下，我來幫你導回主頁
+    </p>
+    <script>
+        (function() {
+            setTimeout(function() {
+                var redirectPath = location.href.split('#')[1];
+                if (redirectPath) {
+                    location.replace('https://linnn1103.github.io/linnn/#' + redirectPath);
+                } else {
+                    location.replace('https://linnn1103.github.io/linnn/');
+                }
+            }, 2500);
+        })();
+    </script>
+</body>
+</html>
