@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>404 Not Found</title>
+</head>
+<body>
+    <h1>404 Not Found</h1>
+    <p>抱歉，我們找不到您要的頁面。</p>
+    <script>
+        (function() {
+            var redirectPath = location.href.split('#')[1];
+            if (redirectPath) {
+                location.replace('https://linnn1103.github.io/linnn/#' + redirectPath);
+            } else {
+                location.replace('https://linnn1103.github.io/linnn/');
+            }
+        })();
+    </script>
+</body>
+</html>
