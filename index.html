@@ -13,8 +13,8 @@
     <script type="text/javascript">
       (function(list) {
         if (list.search[1] === '/' ) {
-          var decoded = list.search.slice(1).split('&').map(function(s) { 
-            return s.replace(/~and~/g, '&')
+          var decoded = list.search.slice(1).split('&').map(function(search) { 
+            return search.replace(/~and~/g, '&')
           }).join('?');
           window.history.replaceState(null, null,
               list.pathname.slice(0, -1) + decoded + list.hash
