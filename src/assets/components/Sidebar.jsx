@@ -15,27 +15,26 @@ function Sidebar () {
           </li>
 
           <li>
-            <a href="https://lit.link/linn1103" target="_blank" rel="noreferrer">
-              <img src={getIconUrl("sidebar/blog.png")} className="nav-icon" alt=""/>
-              <p className="nav-text">Blog</p>
-            </a>
-          </li>
-
-          <li>
-            <Link to="/linnn/note">
-              <img src={getIconUrl("sidebar/note.png")} className="nav-icon" alt=""/>
-              <p className="nav-text">Note</p>
-            </Link>
-          </li>
-          
-          <li>
             <Link to="/linnn/about">
               <img src={getIconUrl("sidebar/profile-user.png")} className="nav-icon" alt=""/>
               <p className="nav-text">About</p>
             </Link>
           </li>
 
-          
+          <li>
+            <Link to="/linnn/project">
+              <img src={getIconUrl("sidebar/note.png")} className="nav-icon" alt=""/>
+              <p className="nav-text">Projects</p>
+            </Link>
+          </li>
+
+          <li>
+            <a href="https://lit.link/linn1103" target="_blank" rel="noreferrer">
+              <img src={getIconUrl("sidebar/blog.png")} className="nav-icon" alt=""/>
+              <p className="nav-text">Blog</p>
+            </a>
+          </li>
+
         </ul>
 
         <ul className="logout">

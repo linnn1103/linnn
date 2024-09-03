@@ -45,10 +45,10 @@ function  Whoami() {
             <li className="aboutItem">
                 <img src={getIconUrl("about/coding.png")} alt="你沒看到就是我沒找到或我畫不出來" />
                 <div className="aboutItemText">
-                <h3>Python Developer</h3>
+                <h3>Cross-Platform Developer</h3>
                 <p>
-                    我也會透過Python開發一些小程式，雖然大部分都很沒用，但很有趣。
-                    如果想你，可以在我的Github上找到這些程式。
+                    我常因為興趣而學習不同的語言、技術，進行不同平台、語言的開發。
+                    像是我曾開發過Minecraft Mod、Discord Bot、Python專案等等。
                 </p>
                 </div>
             </li>

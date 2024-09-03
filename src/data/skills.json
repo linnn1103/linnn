@@ -24,8 +24,12 @@
     "imageSrc": "skills/java.png"
   },
   {
-    "title": "C/C++",
+    "title": "C",
     "imageSrc": "skills/c.png"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "skills/c++.png"
   },
   {
     "title": "C#",
@@ -38,6 +42,14 @@
   {
     "title": "Rust",
     "imageSrc": "skills/rust.png"
+  },
+  {
+    "title": "Arduino",
+    "imageSrc": "skills/arduino.png"
+  },
+  {
+    "title": "Kotlin",
+    "imageSrc": "skills/kotlin.png"
   }
   
 ]

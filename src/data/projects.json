@@ -1,19 +1,19 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Dicord Bot",
+    "imageSrc": "project/discordBot.png",
+    "description": "一個超荒唐的Discord Bot 可以實現一些方便的功能，主要用於練習Rust語言",
+    "skills": ["React"],
+    "demo": "https://discord.com/oauth2/authorize?client_id=1269822078517772331",
+    "source": "https://github.com/linnn1103/Rust-Discord-Bot"
   },
   {
-    "title": "Project B",
+    "title": "Minecraft mod",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "在管理伺服器的同時為玩家提供方便的功能的神奇模組，主要用於練習Java及物件導向。",
+    "skills": ["Java"],
+    "demo": "https://www.curseforge.com/minecraft/mc-mods/display-qien",
+    "source": "https://github.com/linnn1103/Display-qien"
   },
   {
     "title": "Project C",

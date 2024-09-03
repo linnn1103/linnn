@@ -9,7 +9,7 @@ import "./index.css"
 import App from "./App"
 import About from "./assets/pages/about/about"
 import Settings from "./assets/pages/setting/settings"
-import Note from "./assets/pages/note/note"
+import Project from "./assets/pages/project/projects"
 /// router definition
 const router = createBrowserRouter([
   {
@@ -28,9 +28,9 @@ const router = createBrowserRouter([
     basename: "/linnn/settings",
   },
   {
-    path: "/linnn/note",
-    element: <Note />,
-    basename: "/linnn/note",
+    path: "/linnn/project",
+    element: <Project />,
+    basename: "/linnn/project",
   },
   
 ]);

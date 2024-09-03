@@ -1,10 +1,33 @@
 [
   {
+    "role": "專案委託",
+    "describe": "大部分是Rust的韌體開發專案",
+    "startDate": "2021",
+    "endDate": "Present",
+    "experiences": ["左擁創意，右抱創鑫"],
+    "imageSrc": "rainbow"
+  },
+  {
     "role": "64屆東區科展",
     "describe": "題目: 無障礙閱讀-利用自然語言處理來重組艱澀詞彙",
     "startDate": "May",
     "endDate": "2024",
     "experiences": ["佳作"],
+    "imageSrc": "rainbow"
+  },{
+  "role": "APCS",
+  "describe": "參加多次APCS程式檢定",
+  "startDate": "2021",
+  "endDate": "Present",
+  "experiences": ["觀念最高 5級，實作 4級"],
+  "imageSrc": "tmp"
+  },
+  {
+    "role": "Minecraft模組製作",
+    "describe": "在端午節搓出了一個沒甚麼用的模組",
+    "startDate": "2024",
+    "endDate": "Present",
+    "experiences": ["累積下載、瀏覽量破兩百"],
     "imageSrc": "rainbow"
   }
 ]
