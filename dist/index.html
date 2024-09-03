@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png+xml" href="web-icon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>linnn</title>
+    <script type="module" crossorigin src="/linnn/assets/index-BtO3lxIo.js"></script>
+    <link rel="stylesheet" crossorigin href="/linnn/assets/index-6dKj6PqG.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/javascript">
+      (function(list) {
+        if (list.search[1] === '/' ) {
+          var decoded = list.search.slice(1).split('&').map(function(search) { 
+            return search.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              list.pathname.slice(0, -1) + decoded + list.hash
+          );
+        }
+      }(window.location))
+    </script>
+  </body>
+</html>
